@@ -1,0 +1,43 @@
+# Configurazione bot AI Stock Advisor
+# Capitale iniziale ~100 EUR (lavoriamo in USD per compatibilità Alpaca futura)
+
+capital:
+  initial_usd: 110.0          # ≈ 100 EUR
+  currency: "USD"
+  max_positions: 3            # massimo 2-3 titoli come richiesto
+  max_position_pct: 0.40      # max 40% del capitale per singolo titolo
+  cash_reserve_pct: 0.10      # tieni sempre almeno 10% in cash
+
+# Universo iniziale (titoli liquidi USA con buona volatilità)
+# L'AI può suggerire altri titoli, ma parte da questi
+watchlist:
+  - NVDA
+  - TSLA
+  - AMD
+  - SMCI
+  - PLTR
+  - AVGO
+  - META
+  - AMZN
+  - AAPL
+  - MSFT
+  - GOOGL
+  - ARM
+  - CRWD
+  - SNOW
+  - MSTR
+
+# Parametri rischio
+risk:
+  stop_loss_pct: 0.08         # 8% stop loss di default
+  take_profit_pct: 0.18       # 18% take profit di default
+  min_confidence: 0.60        # soglia minima confidenza AI per suggerire
+
+# Orari (CET)
+schedule:
+  report_hour_cet: 22         # dopo chiusura mercati USA
+
+# Gemini
+gemini:
+  model: "gemini-1.5-flash"   # veloce e economico (puoi cambiare in 1.5-pro se vuoi più qualità)
+  temperature: 0.3
