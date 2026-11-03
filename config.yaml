@@ -38,7 +38,7 @@ timezone: "Europe/Rome"
 
 # Gemini
 gemini:
-  model: "gemini-2.5-flash"   # veloce e economico (per più qualità: gemini-2.5-pro)
+  model: "gemini-3.8-flash"   # veloce e economico (per più qualità: gemini-2.5-pro)
   temperature: 0.3
   max_output_tokens: 4096
   retries: 3
