@@ -1,1 +1,36 @@
+name: Daily AI Stock Report
 
+on:
+  schedule:
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run analysis
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m bot.main
+
+      - name: Commit reports
+        run: |
+          git config user.name "AI Stock Advisor"
+          git config user.email "bot@users.noreply.github.com"
+          git add STATUS.md REPORT.md state/ || true
+          git diff --staged --quiet || git commit -m "Report automatico"
+          git push
