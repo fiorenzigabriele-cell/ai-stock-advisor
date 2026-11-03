@@ -1,1 +1,1 @@
-# bot package
+"""AI Stock Advisor – bot package."""

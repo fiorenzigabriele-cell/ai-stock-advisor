@@ -14,6 +14,20 @@ import yfinance as yf
 STATE_FILE = Path(__file__).parent.parent / "state" / "portfolio.json"
 
 
+def fetch_prices(symbols: List[str]) -> Dict[str, float]:
+    """Scarica l'ultimo prezzo disponibile, un simbolo alla volta (evita i problemi di MultiIndex)."""
+    prices: Dict[str, float] = {}
+    for sym in symbols:
+        try:
+            hist = yf.Ticker(sym).history(period="5d")
+            close = hist["Close"].dropna()
+            if not close.empty:
+                prices[sym] = float(close.iloc[-1])
+        except Exception as e:
+            print(f"Errore prezzo {sym}: {e}")
+    return prices
+
+
 class PaperPortfolio:
     def __init__(self, initial_cash: float = 110.0, max_positions: int = 3):
         self.initial_cash = initial_cash
@@ -23,7 +37,11 @@ class PaperPortfolio:
     def _load(self) -> dict:
         if STATE_FILE.exists():
             with open(STATE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                state = json.load(f)
+            state.setdefault("cash", self.initial_cash)
+            state.setdefault("positions", {})
+            state.setdefault("history", [])
+            return state
         return {
             "cash": self.initial_cash,
             "positions": {},          # symbol -> {qty, avg_price, opened_at}
@@ -39,22 +57,8 @@ class PaperPortfolio:
             json.dump(self.state, f, indent=2, ensure_ascii=False)
 
     def get_current_prices(self, symbols: List[str]) -> Dict[str, float]:
-        prices = {}
-        if not symbols:
-            return prices
-        try:
-            data = yf.download(symbols, period="1d", progress=False, threads=False)
-            if len(symbols) == 1:
-                prices[symbols[0]] = float(data["Close"].iloc[-1])
-            else:
-                for sym in symbols:
-                    try:
-                        prices[sym] = float(data["Close"][sym].iloc[-1])
-                    except Exception:
-                        pass
-        except Exception as e:
-            print(f"Errore download prezzi: {e}")
-        return prices
+        """Ultimo prezzo di chiusura per simbolo (robusto alle versioni di yfinance)."""
+        return fetch_prices(symbols)
 
     def portfolio_value(self) -> dict:
         positions = self.state["positions"]
@@ -82,7 +86,7 @@ class PaperPortfolio:
         cash = self.state["cash"]
         total = cash + positions_value
         total_pnl = total - self.initial_cash
-        total_pnl_pct = (total / self.initial_cash - 1) * 100
+        total_pnl_pct = (total / self.initial_cash - 1) * 100 if self.initial_cash else 0.0
 
         return {
             "cash": round(cash, 2),
@@ -109,6 +113,8 @@ class PaperPortfolio:
         cost = qty * price
         if cost > self.state["cash"] + 0.01:
             raise ValueError(f"Cash insufficiente: serve {cost:.2f}, hai {self.state['cash']:.2f}")
+        if qty <= 0 or price <= 0:
+            raise ValueError("Quantità e prezzo devono essere positivi")
         if not self.can_open_position() and symbol not in self.state["positions"]:
             raise ValueError(f"Hai già {self.max_positions} posizioni aperte")
 

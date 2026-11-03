@@ -4,16 +4,24 @@ Genera STATUS.md e REPORT.md in italiano.
 
 from datetime import datetime
 from pathlib import Path
+from typing import List, Optional
+from zoneinfo import ZoneInfo
+
 from tabulate import tabulate
 
 
 ROOT = Path(__file__).parent.parent
+TZ = ZoneInfo("Europe/Rome")
 STATUS_FILE = ROOT / "STATUS.md"
 REPORT_FILE = ROOT / "REPORT.md"
 
 
-def generate_status(portfolio_summary: dict) -> str:
-    now = datetime.now().strftime("%d/%m/%Y %H:%M CET")
+def _now() -> str:
+    return datetime.now(TZ).strftime("%d/%m/%Y %H:%M %Z")
+
+
+def generate_status(portfolio_summary: dict, max_positions: int = 3, alerts: Optional[List[str]] = None) -> str:
+    now = _now()
     pnl = portfolio_summary["total_pnl"]
     pnl_pct = portfolio_summary["total_pnl_pct"]
     emoji = "🟢" if pnl >= 0 else "🔴"
@@ -25,9 +33,12 @@ def generate_status(portfolio_summary: dict) -> str:
         f"**Cash:** {portfolio_summary['cash']:.2f} USD",
         f"**Valore posizioni:** {portfolio_summary['positions_value']:.2f} USD",
         f"**P&L totale:** {emoji} {pnl:+.2f} USD ({pnl_pct:+.2f}%)",
-        f"**Posizioni aperte:** {portfolio_summary['num_positions']} / 3",
+        f"**Posizioni aperte:** {portfolio_summary['num_positions']} / {max_positions}",
         "",
     ]
+
+    if alerts:
+        lines += ["## ⚠️ Alert rischio", ""] + [f"- {a}" for a in alerts] + [""]
 
     if portfolio_summary["positions"]:
         lines.append("## Posizioni")
@@ -55,8 +66,12 @@ def generate_status(portfolio_summary: dict) -> str:
     return "\n".join(lines)
 
 
-def generate_report(portfolio_summary: dict, analysis_text: str) -> str:
-    now = datetime.now().strftime("%d/%m/%Y %H:%M CET")
+def generate_report(portfolio_summary: dict, analysis_text: str, max_positions: int = 3,
+                    alerts: Optional[List[str]] = None) -> str:
+    now = _now()
+    alerts_txt = ""
+    if alerts:
+        alerts_txt = "## ⚠️ Alert rischio\n" + "\n".join(f"- {a}" for a in alerts) + "\n\n---\n\n"
     pnl = portfolio_summary["total_pnl"]
     pnl_pct = portfolio_summary["total_pnl_pct"]
     emoji = "🟢" if pnl >= 0 else "🔴"
@@ -67,11 +82,11 @@ def generate_report(portfolio_summary: dict, analysis_text: str) -> str:
 - Valore portafoglio: **{portfolio_summary['total_value']:.2f} USD**
 - P&L da inizio: {emoji} **{pnl:+.2f} USD ({pnl_pct:+.2f}%)**
 - Cash disponibile: {portfolio_summary['cash']:.2f} USD
-- Posizioni aperte: {portfolio_summary['num_positions']} / 3
+- Posizioni aperte: {portfolio_summary['num_positions']} / {max_positions}
 
 ---
 
-## Analisi AI
+{alerts_txt}## Analisi AI
 
 {analysis_text}
 
@@ -79,20 +94,21 @@ def generate_report(portfolio_summary: dict, analysis_text: str) -> str:
 
 ## Come usare questo report
 1. Leggi i consigli sopra.
-2. Se vuoi eseguire un trade suggerito, apri il file `PENDING.md` (se presente) oppure scrivi semplicemente in una Issue del repository.
-3. Il bot **non esegue trade da solo**. Aspetta la tua approvazione.
+2. Se vuoi simulare un trade: **Actions → Paper Trade → Run workflow** (scegli buy/sell, titolo e importo).
+3. Il bot **non esegue trade da solo**: aspetta la tua azione.
 
 *Questo è solo paper trading. Non è consulenza finanziaria.*
 """
     return content
 
 
-def write_reports(portfolio_summary: dict, analysis_text: str):
-    status = generate_status(portfolio_summary)
-    report = generate_report(portfolio_summary, analysis_text)
+def write_reports(portfolio_summary: dict, analysis_text: str, max_positions: int = 3,
+                  alerts: Optional[List[str]] = None):
+    status = generate_status(portfolio_summary, max_positions, alerts)
+    report = generate_report(portfolio_summary, analysis_text, max_positions, alerts)
 
     STATUS_FILE.write_text(status, encoding="utf-8")
     REPORT_FILE.write_text(report, encoding="utf-8")
 
     print("Scritti STATUS.md e REPORT.md")
-    return status, repor
+    return status, report

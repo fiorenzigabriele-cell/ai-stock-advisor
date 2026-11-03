@@ -33,11 +33,12 @@ risk:
   take_profit_pct: 0.18       # 18% take profit di default
   min_confidence: 0.60        # soglia minima confidenza AI per suggerire
 
-# Orari (CET)
-schedule:
-  report_hour_cet: 22         # dopo chiusura mercati USA
+# Il report gira via GitHub Actions (vedi .github/workflows/daily_report.yml)
+timezone: "Europe/Rome"
 
 # Gemini
 gemini:
-  model: "gemini-1.5-flash"   # veloce e economico (puoi cambiare in 1.5-pro se vuoi più qualità)
+  model: "gemini-2.5-flash"   # veloce e economico (per più qualità: gemini-2.5-pro)
   temperature: 0.3
+  max_output_tokens: 4096
+  retries: 3
