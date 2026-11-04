@@ -1,4 +1,4 @@
-# Report Giornaliero – 04/11/2026 13:36 CET
+# Report Giornaliero – 04/11/2026 13:48 CET
 
 ## Riepilogo rapido
 - Valore portafoglio: **110.00 USD**
@@ -11,16 +11,20 @@
 ## Analisi AI
 
 ### Stato portafoglio
-Analisi AI non disponibile in questo run.
+- **Valore totale:** 110.00 USD
+- **Cash disponibile (con riserva 10%):** 99.00 USD
+- **Posizioni aperte:** 0 / 3 (Max per singolo titolo: 44.00 USD)
 
 ### Analisi mercati
-Errore Gemini dopo vari tentativi: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+Il mercato mostra una fase di generale debolezza a breve termine, con la maggior parte dei titoli sotto le rispettive medie mobili a 50 giorni (MA50). Molti asset registrano correzioni consistenti a 1 mese (es. ARM -33.1%, SMCI -27.3%, GOOGL -19.2%). Tuttavia, alcuni titoli mostrano segnali di stabilizzazione o si trovano sopra la MA50 con volatilità moderata. Tra questi, TSLA (prezzo sopra MA50, RSI 59.0) e MSFT (prezzo sopra MA50, RSI 49.4) mostrano una tenuta migliore rispetto al resto del paniere, mentre GOOGL registra un RSI estremamente ipervenduto (22.2) ma si trova nettamente sotto la MA50. 
 
 ### Consigli
-- Nessun consiglio generato: **non fare nulla** finché l'analisi non torna disponibile.
+- **NON FARE NULLA**
+
+Con un capitale molto piccolo e una strategia orientata al momentum con volatilità controllata, nessuno dei titoli analizzati presenta al momento un setup sufficientemente forte e sicuro che rispetti tutti i criteri richiesti (quasi tutti i titoli di slancio sono sotto la MA50 o reduci da cali mensili marcati, mentre i pochi sopra la MA50 non offrono un punto d'ingresso ideale basato sui dati forniti). È preferibile mantenere il capitale in liquidità.
 
 ### Confidenza
-0/10
+4/10
 
 ---
 
