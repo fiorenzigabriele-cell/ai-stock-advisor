@@ -1,8 +1,8 @@
-# Report Giornaliero – 04/11/2026 14:12 CET
+# Report Giornaliero – 04/11/2026 23:11 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **110.00 USD**
-- P&L da inizio: 🟢 **+0.00 USD (+0.00%)**
+- Valore portafoglio: **108.66 USD**
+- P&L da inizio: 🔴 **-1.34 USD (-1.21%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
 
@@ -11,16 +11,16 @@
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 110.00 USD
-- **Cash disponibile (con riserva 10%):** 59.00 USD
-- **Posizioni aperte:** 1 / 3 (TSLA: qty 0.100376, prezzo medio/attuale 398.50 USD, P&L +0.00 USD / +0.0%)
-- **Limiti operativi:** Importo massimo per singolo titolo 44.00 USD. Nessuno stop loss o take profit raggiunto (TSLA è invariato a 398.50 USD, con stop loss teorico a 366.62 USD e take profit a 470.23 USD).
+- **Valore totale:** 108.66 USD
+- **Cash disponibile (con riserva 10%):** 59.13 USD (Cash totale: 70.00 USD)
+- **Posizioni aperte:** 1 / 3 (TSLA: 0.100376 quote, P&L -1.34 USD / -3.3%, prezzo attuale 385.19 USD rispetto al medio di 398.5 USD). Nessuno stop loss (366.62 USD) o take profit (470.23 USD) è stato ancora raggiunto.
+- **Limiti rispettati:** Spazio per altre 2 posizioni, con un limite massimo per singolo titolo di 43.46 USD.
 
 ### Analisi mercati
-Il mercato mostra una fase di debolezza diffusa, con la maggior parte dei titoli sotto la propria media mobile a 50 giorni (MA50). Molti titoli tecnologici e di crescita registrano cali a 1 mese significativi (es. ARM -33.1%, SMCI -27.3%, AMD -23.4%) e si trovano in area di ipervenduto o vicini ad esso, con valori di RSI spesso compresi tra 35 e 45. Fanno eccezione MSFT e CRWD, che si mantengono sopra la MA50, e GOOGL che mostra un RSI fortemente depresso a 22.2 purtroppo accompagnato da un trend mensile molto negativo (-19.2%). La nostra unica posizione aperta (TSLA) si difende bene, scambiando sopra la MA50 con un RSI neutrale a 59.0.
+Il mercato mostra una forte polarizzazione. Diversi titoli tecnologici e growth subiscono correzioni marcate a 1 mese (es. ARM -36.6%, SMCI -31.9%, GOOGL -16.9%), trovandosi ben al di sotto delle rispettive medie mobili a 50 giorni e con RSI in area di ipervenduto o debolezza (GOOGL RSI 30.2, PLTR RSI 33.5, NVDA RSI 34.6). Di contro, i giganti a grande capitalizzazione come MSFT (prezzo 555.8, +6.7% in 1g, RSI 64.3), AMZN e AAPL mostrano forza recente, scambiando sopra la MA50 ma con MSFT che si avvicina a livelli di moderato surriscaldamento senza però superare la soglia di guardia di RSI 75. 
 
 ### Consigli
-- **NON FARE NULLA.** Data la debolezza strutturale di molti titoli sotto la MA50 e la mancanza di configurazioni di momentum pulite che rispettino i nostri filtri di rischio, è preferibile mantenere la liquidità e preservare il capitale. TSLA viene mantenuta in portafoglio senza variazioni, poiché il prezzo si trova sopra la MA50 e non ha raggiunto né lo stop loss né il take profit.
+- **NON FARE NULLA.** Nonostante i ribassi di diversi titoli offrano spunti tecnici interessanti, nessuno dei candidati a forte sconto soddisfa pienamente i criteri di momentum a breve termine combinati con una volatilità controllata (molti restano sotto la MA50 con trend ribassisti pronunciati a 1 settimana e 1 mese). La posizione aperta su TSLA è in lieve perdita ma ampiamente dentro i margini di rischio, e con un capitale così piccolo è preferibile preservare la liquidità anziché forzare un secondo ingresso.
 
 ### Confidenza
 3/10
