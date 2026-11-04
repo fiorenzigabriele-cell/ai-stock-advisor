@@ -1,4 +1,4 @@
-# Report Giornaliero – 03/11/2026 23:15 CET
+# Report Giornaliero – 04/11/2026 13:31 CET
 
 ## Riepilogo rapido
 - Valore portafoglio: **110.00 USD**
@@ -14,7 +14,7 @@
 Analisi AI non disponibile in questo run.
 
 ### Analisi mercati
-Errore Gemini dopo vari tentativi: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+Errore Gemini dopo vari tentativi: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
 
 ### Consigli
 - Nessun consiglio generato: **non fare nulla** finché l'analisi non torna disponibile.
