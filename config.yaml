@@ -1,5 +1,5 @@
 # Configurazione bot AI Stock Advisor
-# Capitale iniziale ~100 EUR (lavoriamo in USD per compatibilità Alpaca futura)
+# Capitale iniziale \~100 EUR (lavoriamo in USD per compatibilità Alpaca futura)
 
 capital:
   initial_usd: 110.0          # ≈ 100 EUR
@@ -36,9 +36,9 @@ risk:
 # Il report gira via GitHub Actions (vedi .github/workflows/daily_report.yml)
 timezone: "Europe/Rome"
 
-# Gemini
+# Gemini – SOLO modelli gratuiti (Free Tier)
 gemini:
-  model: "gemini-3.8-flash"   # veloce e economico (per più qualità: gemini-2.5-pro)
+  model: "gemini-2.5-flash-lite"   # principale (gratuito e leggero)
   temperature: 0.3
   max_output_tokens: 4096
-  retries: 6
+  retries: 8
