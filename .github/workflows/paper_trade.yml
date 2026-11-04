@@ -1,1 +1,64 @@
+name: Paper Trade
 
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Azione"
+        type: choice
+        options: [buy, sell]
+        required: true
+      symbol:
+        description: "Ticker (es. NVDA)"
+        required: true
+      amount_usd:
+        description: "Importo in USD (solo buy)"
+        required: false
+      price:
+        description: "Prezzo manuale (opzionale)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-advisor-state
+  cancel-in-progress: false
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Esegui trade
+        env:
+          ACTION: ${{ inputs.action }}
+          SYMBOL: ${{ inputs.symbol }}
+          AMOUNT: ${{ inputs.amount_usd }}
+          PRICE: ${{ inputs.price }}
+        run: |
+          args=("$ACTION" "$SYMBOL")
+          [ -n "$AMOUNT" ] && args+=(--amount "$AMOUNT")
+          [ -n "$PRICE" ] && args+=(--price "$PRICE")
+          python -m bot.trade "${args[@]}"
+
+      - name: Commit stato
+        env:
+          ACTION: ${{ inputs.action }}
+          SYMBOL: ${{ inputs.symbol }}
+        run: |
+          git config user.name "AI Stock Advisor"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/
+          git diff --staged --quiet || git commit -m "Paper trade: $ACTION $SYMBOL"
+          git pull --rebase --autostash
+          git push
