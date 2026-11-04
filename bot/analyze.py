@@ -208,23 +208,43 @@ def call_gemini(prompt: str, config: dict) -> str:
         max_output_tokens=gcfg.get("max_output_tokens", 4096),
     )
 
-    last_err = None
-    for attempt in range(1, gcfg.get("retries", 3) + 1):
-        try:
-            response = client.models.generate_content(
-                model=gcfg.get("model", "gemini-2.5-flash"),
-                contents=prompt,
-                config=gen_config,
-            )
-            if response.text:
-                return response.text
-            last_err = "risposta vuota"
-        except Exception as e:
-            last_err = str(e)
-        print(f"Gemini tentativo {attempt} fallito: {last_err}")
-        time.sleep(5 * attempt)
+    # Solo modelli GRATUITI (Free Tier) – dal più leggero al più capace
+    models = [
+        gcfg.get("model", "gemini-2.5-flash-lite"),
+        "gemini-2.5-flash-lite",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite",
+        "gemini-3.8-flash",
+    ]
+    # Rimuovi duplicati mantenendo l'ordine
+    seen = set()
+    models = [m for m in models if not (m in seen or seen.add(m))]
 
-    return _fallback_report(f"Errore Gemini dopo vari tentativi: {last_err}")
+    last_err = None
+    for model in models:
+        for attempt in range(1, gcfg.get("retries", 8) + 1):
+            try:
+                print(f"Tentativo {attempt} con modello {model}...")
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=gen_config,
+                )
+                if response.text:
+                    print(f"OK con {model}")
+                    return response.text
+                last_err = "risposta vuota"
+            except Exception as e:
+                last_err = str(e)
+                print(f"Gemini {model} tentativo {attempt} fallito: {last_err}")
+                # Se è 503/429 aspetta di più
+                if any(x in last_err for x in ("503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED")):
+                    time.sleep(8 * attempt)
+                else:
+                    time.sleep(3 * attempt)
+        print(f"Passo al modello successivo dopo fallimenti su {model}")
+
+    return _fallback_report(f"Errore Gemini dopo vari tentativi su modelli free: {last_err}")
 
 
 def run_analysis(portfolio_summary: dict, config: dict = None) -> str:
