@@ -31,7 +31,7 @@ watchlist:
 risk:
   stop_loss_pct: 0.08         # 8% stop loss di default
   take_profit_pct: 0.18       # 18% take profit di default
-  min_confidence: 0.40        # soglia minima confidenza AI per suggerire
+  min_confidence: 0.60        # soglia minima confidenza AI per suggerire
 
 # Il report gira via GitHub Actions (vedi .github/workflows/daily_report.yml)
 timezone: "Europe/Rome"
