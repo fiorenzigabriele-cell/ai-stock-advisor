@@ -1,26 +1,33 @@
-# Report Giornaliero – 04/11/2026 23:11 CET
+# Report Giornaliero – 05/11/2026 23:12 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **108.66 USD**
-- P&L da inizio: 🔴 **-1.34 USD (-1.21%)**
+- Valore portafoglio: **104.50 USD**
+- P&L da inizio: 🔴 **-5.50 USD (-5.00%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
+
+---
+
+## ⚠️ Alert rischio
+- 🔴 **TSLA**: -13.8% → stop loss (-8%) raggiunto. Valuta di chiudere (Actions → Paper Trade → sell TSLA).
 
 ---
 
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 108.66 USD
-- **Cash disponibile (con riserva 10%):** 59.13 USD (Cash totale: 70.00 USD)
-- **Posizioni aperte:** 1 / 3 (TSLA: 0.100376 quote, P&L -1.34 USD / -3.3%, prezzo attuale 385.19 USD rispetto al medio di 398.5 USD). Nessuno stop loss (366.62 USD) o take profit (470.23 USD) è stato ancora raggiunto.
-- **Limiti rispettati:** Spazio per altre 2 posizioni, con un limite massimo per singolo titolo di 43.46 USD.
+- **Valore totale:** 104.50 USD
+- **Cash disponibile (con riserva 10%):** 59.55 USD (Cash totale: 70.00 USD)
+- **Posizioni aperte:** 1 / 3 (TSLA)
+- **Limite per singolo titolo:** 41.80 USD
+- **Posizione TSLA:** Quantità 0.100376, Prezzo medio 398.50 USD, Prezzo attuale 343.69 USD, P&L -5.50 USD (-13.8%). 
+*Nota stop-loss/take-profit:* Con un prezzo medio di 398.50 USD, lo stop loss teorico all'8% si trova a circa 366.62 USD e il take profit al 18% a circa 470.23 USD. Il titolo ha superato lo stop loss teorico (prezzo attuale 343.69 USD).
 
 ### Analisi mercati
-Il mercato mostra una forte polarizzazione. Diversi titoli tecnologici e growth subiscono correzioni marcate a 1 mese (es. ARM -36.6%, SMCI -31.9%, GOOGL -16.9%), trovandosi ben al di sotto delle rispettive medie mobili a 50 giorni e con RSI in area di ipervenduto o debolezza (GOOGL RSI 30.2, PLTR RSI 33.5, NVDA RSI 34.6). Di contro, i giganti a grande capitalizzazione come MSFT (prezzo 555.8, +6.7% in 1g, RSI 64.3), AMZN e AAPL mostrano forza recente, scambiando sopra la MA50 ma con MSFT che si avvicina a livelli di moderato surriscaldamento senza però superare la soglia di guardia di RSI 75. 
+Il mercato mostra una fase di forte debolezza diffusa, con la maggior parte dei titoli tecnologici e ciclici scambiati nettamente al di sotto delle loro medie mobili a 20 e 50 giorni. Molti asset presentano RSI in zona di ipervenduto o quasi (RSI tra 25 e 35), riflettendo ribassi marcati nell'ultima settimana e nell'ultimo mese. Fanno eccezione pochi titoli difensivi o resilienti come AMZN, AAPL e MSFT, che mantengono i prezzi al di sopra della MA50 con RSI intorno a 53-55, pur registrando cali marginali nell'ultima seduta.
 
 ### Consigli
-- **NON FARE NULLA.** Nonostante i ribassi di diversi titoli offrano spunti tecnici interessanti, nessuno dei candidati a forte sconto soddisfa pienamente i criteri di momentum a breve termine combinati con una volatilità controllata (molti restano sotto la MA50 con trend ribassisti pronunciati a 1 settimana e 1 mese). La posizione aperta su TSLA è in lieve perdita ma ampiamente dentro i margini di rischio, e con un capitale così piccolo è preferibile preservare la liquidità anziché forzare un secondo ingresso.
+- **NON FARE NULLA:** Data la forte volatilità e il fatto che la maggior parte dei titoli si trova sotto la MA50 con trend ribassisti marcati a 1 mese, non ci sono le condizioni di momentum e controllo del rischio adeguate per aprire nuove posizioni. La posizione esistente in TSLA ha inoltre superato la soglia di stop loss teorico dell'8%, suggerendo prudenza e il rispetto rigoroso del risk management con un capitale così ridotto.
 
 ### Confidenza
 3/10
