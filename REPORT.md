@@ -1,4 +1,4 @@
-# Report Giornaliero – 05/11/2026 23:12 CET
+# Report Giornaliero – 06/11/2026 09:26 CET
 
 ## Riepilogo rapido
 - Valore portafoglio: **104.50 USD**
@@ -16,18 +16,19 @@
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 104.50 USD
-- **Cash disponibile (con riserva 10%):** 59.55 USD (Cash totale: 70.00 USD)
-- **Posizioni aperte:** 1 / 3 (TSLA)
-- **Limite per singolo titolo:** 41.80 USD
-- **Posizione TSLA:** Quantità 0.100376, Prezzo medio 398.50 USD, Prezzo attuale 343.69 USD, P&L -5.50 USD (-13.8%). 
-*Nota stop-loss/take-profit:* Con un prezzo medio di 398.50 USD, lo stop loss teorico all'8% si trova a circa 366.62 USD e il take profit al 18% a circa 470.23 USD. Il titolo ha superato lo stop loss teorico (prezzo attuale 343.69 USD).
+- Valore totale: 104.50 USD
+- Liquidità disponibile (rispettando la riserva del 10%): 59.55 USD (Cash totale: 70.00 USD)
+- Posizioni aperte: 1 su un massimo di 3 (TSLA)
+- Limite massimo per singolo titolo: 41.80 USD
+- Posizione TSLA: Qty 0.100376, Prezzo medio 398.5 USD, Prezzo attuale 343.69 USD, P&L -5.50 USD (-13.8%). La perdita ha superato lo stop loss teorico dell'8%, arrivando a -13.8%.
 
 ### Analisi mercati
-Il mercato mostra una fase di forte debolezza diffusa, con la maggior parte dei titoli tecnologici e ciclici scambiati nettamente al di sotto delle loro medie mobili a 20 e 50 giorni. Molti asset presentano RSI in zona di ipervenduto o quasi (RSI tra 25 e 35), riflettendo ribassi marcati nell'ultima settimana e nell'ultimo mese. Fanno eccezione pochi titoli difensivi o resilienti come AMZN, AAPL e MSFT, che mantengono i prezzi al di sopra della MA50 con RSI intorno a 53-55, pur registrando cali marginali nell'ultima seduta.
+Il mercato mostra una fase di forte debolezza diffusa, con la maggior parte dei titoli sotto la media mobile a 50 giorni (MA50) e diversi indicatori RSI in zona di ipervenduto (es. NVDA a 25.4, PLTR a 25.4, ARM a 27.2, GOOGL a 28.0). Tra i titoli monitorati, solo AMZN, AAPL e MSFT mantengono i prezzi al di sopra della MA50, mostrando maggiore resilienza e RSI neutrali (intorno a 53-55). I titoli ad alta volatilità come ARM, SMCI e AMD registrano cali mensili marcati (-37% / -43%).
 
 ### Consigli
-- **NON FARE NULLA:** Data la forte volatilità e il fatto che la maggior parte dei titoli si trova sotto la MA50 con trend ribassisti marcati a 1 mese, non ci sono le condizioni di momentum e controllo del rischio adeguate per aprire nuove posizioni. La posizione esistente in TSLA ha inoltre superato la soglia di stop loss teorico dell'8%, suggerendo prudenza e il rispetto rigoroso del risk management con un capitale così ridotto.
+- Riguardo a TSLA: Poiché la posizione ha superato la soglia dello stop loss dell'8% (attualmente a -13.8%), si valuti la chiusura della posizione per limitare le perdite, pur trattandosi di paper trading.
+- Per nuove aperture: Data la forte instabilità e il quadro tecnico prevalentemente sotto la MA50, non ci sono le condizioni ideali per aprire una nuova posizione con alta confidenza. È preferibile attendere la stabilizzazione del mercato.
+- NON FARE NULLA per gli acquisti.
 
 ### Confidenza
 3/10
