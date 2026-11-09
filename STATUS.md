@@ -1,4 +1,4 @@
-# Stato Portafoglio – 06/11/2026 23:02 CET
+# Stato Portafoglio – 09/11/2026 08:25 CET
 
 **Valore totale:** 105.96 USD
 **Cash:** 70.00 USD
