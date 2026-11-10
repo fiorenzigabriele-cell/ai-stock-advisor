@@ -1,4 +1,4 @@
-# Report Giornaliero – 09/11/2026 23:09 CET
+# Report Giornaliero – 10/11/2026 05:50 CET
 
 ## Riepilogo rapido
 - Valore portafoglio: **107.95 USD**
@@ -11,16 +11,19 @@
 ## Analisi AI
 
 ### Stato portafoglio
-Il portafoglio ha un valore totale di 107.95 USD (partito da 110 USD). Il cash disponibile è 70.00 USD, di cui 59.20 USD investibili rispettando la riserva del 10%. È aperta 1 sola posizione su un massimo di 3 consentite (TSLA, P&L -2.05 USD / -5.1%, vicina ma non ancora al nostro stop loss dell'8%). L'importo massimo allocabile per singolo titolo è 43.18 USD (40% del capitale).
+- **Valore totale:** 107.95 USD
+- **Cash disponibile (con riserva 10%):** 59.20 USD (Cash totale: 70.00 USD)
+- **Posizioni aperte:** 1 su max 3 (TSLA: qty 0.100376, prezzo medio 398.5, attuale 378.05, P&L -2.05 USD / -5.1%). 
+- **Limiti operativi:** Importo massimo per singolo titolo 43.18 USD (40% del capitale). La posizione in TSLA non ha ancora raggiunto lo stop loss dell'8% (fissato a circa 366.62 USD) né il take profit del 18% (fissato a circa 470.23 USD).
 
 ### Analisi mercati
-Il mercato mostra diverse opportunità di rimbalzo dopo correzioni mensili, ma molti titoli rimangono scambiati al di sotto delle rispettive medie mobili a 50 giorni (MA50). Tra i titoli in forte ipervenduto spicca NVDA con un RSI a 27.4 e una correzione del -22.1% a un mese, ma si trova significativamente sotto la MA50 (178.67 vs 219.0). Nel frattempo, titoli come AMZN, AAPL e MSFT mantengono la forza posizionandosi sopra la MA50 con RSI moderati (intorno a 57-59), sebbene abbiano spazi di upside limitati dalle regole di momentum rigorose e dai recenti rialzi giornalieri. 
+Il mercato mostra un quadro misto, con diversi titoli tecnologici e di crescita ancora sotto la media mobile a 50 giorni (MA50), penalizzati da correzioni mensili marcate. Tra i titoli in watchlist, **NVDA** evidenzia un forte calo recente (1m -22.1%) e si trova in forte ipervenduto con un RSI a 27.4. Altri titoli come **AMZN**, **AAPL** e **MSFT** si mantengono invece sopra la MA50, mostrando maggiore resilienza e valori di RSI in area neutrale/rialzista (intorno a 57-59), ma senza particolari segnali di sconto immediato.
 
 ### Consigli
-- NON FARE NULLA. Data la bassa confidenza generale e la necessità di mantenere un risk management stretto con un capitale molto piccolo, si consiglia di attendere configurazioni tecniche più solide senza aprire nuove posizioni. La posizione attuale su TSLA viene mantenuta monitorando lo stop loss.
+- **NON FARE NULLA.** Data la limitata liquidità investibile (59.20 USD) e la necessità di mantenere un risk management stretto su un capitale piccolo, nessuno dei titoli analizzati soddisfa pienamente i criteri di confidenza per un nuovo ingresso in questa fase. Nonostante l'ipervenduto di NVDA (RSI 27.4), la forte pressione ribassista a breve termine sconsiglia l'apertura di posizioni senza una stabilizzazione dei prezzi sopra la MA50.
 
 ### Confidenza
-4/10
+3/10
 
 ---
 
