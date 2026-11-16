@@ -1,8 +1,8 @@
-# Report Giornaliero – 13/11/2026 23:09 CET
+# Report Giornaliero – 16/11/2026 23:13 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **109.17 USD**
-- P&L da inizio: 🔴 **-0.83 USD (-0.76%)**
+- Valore portafoglio: **108.12 USD**
+- P&L da inizio: 🔴 **-1.88 USD (-1.71%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
 
@@ -11,18 +11,16 @@
 ## Analisi AI
 
 ### Stato portafoglio
-- Valore totale: 109.17 USD
-- Liquidità disponibile (rispettando il 10% di riserva): 59.08 USD
-- Posizioni aperte: 1 / 3 (TSLA: P&L -0.83 USD / -2.1%, prezzo attuale 390.22 USD, sopra MA50 a 374.74 USD). 
-- Stop loss (8%) e Take profit (18%) non ancora raggiunti sulla posizione aperta.
+- **Valore totale:** 108.12 USD
+- **Cash disponibile (con riserva 10%):** 59.19 USD (su 70.00 USD totali)
+- **Posizioni aperte:** 1 / 3 (TSLA: valore di mercato circa 38.10 USD, P&L -1.88 USD / -4.7%, ben distante dallo stop loss dell'8% e dal take profit del 18%)
+- **Limite per singolo titolo:** Max 43.25 USD
 
 ### Analisi mercati
-Il mercato mostra diverse opportunità di correzione su titoli tecnologici e ciclici, ma la selettività deve essere alta a causa della volatilità. 
-- **NVDA** si trova in forte ipervenduto con un RSI a 24.9 e un calo mensile del 25.0%, ma il prezzo (162.85 USD) è ben sotto la MA50 (214.63 USD) e la volatilità annua è al 52.8%.
-- **AMZN** e **AAPL** mostrano una buona forza relativa, scambiando sopra le rispettive MA50 con RSI moderati (rispettivamente 57.4 e 60.9) e una volatilità contenuta (42.0% e 27.9%), rappresentando contesti tecnici più stabili per un piccolo capitale.
+Il mercato mostra una fase di correzione diffusa, con la maggior parte dei titoli sotto la propria media mobile a 50 giorni (MA50). Tra i titoli monitorati, spiccano segnali di forte ipervenduto per **NVDA** (RSI 22.7, -34.7% dai massimi a 6 mesi) e **MSTR** (RSI 28.7, -38.9% dai massimi). I titoli che mostrano maggiore tenuta strutturale, scambiando sopra o molto vicini sia alla MA20 che alla MA50, sono **AAPL** (RSI 57.2, -1.0% dai massimi) e **AMZN** (RSI 49.6, prezzo sopra MA50). La volatilità rimane elevata in tutto il comparto tecnologico.
 
 ### Consigli
-- **NON FARE NULLA**
+- **NON FARE NULLA**: Data la forte turbolenza di mercato e la prevalenza di titoli sotto la MA50, la strategia di momentum con volatilità controllata suggerisce di mantenere la prudenza. Con una sola posizione aperta (TSLA) e un capitale ridotto, non ci sono le condizioni ottimali di confidenza per aprire una seconda posizione oggi.
 
 ### Confidenza
 4/10
