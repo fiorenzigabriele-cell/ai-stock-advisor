@@ -1,8 +1,8 @@
-# Report Giornaliero – 16/11/2026 23:13 CET
+# Report Giornaliero – 17/11/2026 23:19 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **108.12 USD**
-- P&L da inizio: 🔴 **-1.88 USD (-1.71%)**
+- Valore portafoglio: **108.15 USD**
+- P&L da inizio: 🔴 **-1.85 USD (-1.68%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
 
@@ -11,19 +11,23 @@
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 108.12 USD
+- **Valore totale:** 108.15 USD
 - **Cash disponibile (con riserva 10%):** 59.19 USD (su 70.00 USD totali)
-- **Posizioni aperte:** 1 / 3 (TSLA: valore di mercato circa 38.10 USD, P&L -1.88 USD / -4.7%, ben distante dallo stop loss dell'8% e dal take profit del 18%)
-- **Limite per singolo titolo:** Max 43.25 USD
+- **Posizioni aperte:** 1 / 3 (TSLA)
+- **Importo massimo per singolo titolo:** 43.26 USD
+- **Posizione TSLA:** Valore attuale 380.11 USD (prezzo medio 398.50 USD), P&L -1.85 USD (-4.6%). Non ha ancora raggiunto lo stop loss teorico dell'8% (~366.62 USD) né il take profit del 18% (~470.23 USD).
 
 ### Analisi mercati
-Il mercato mostra una fase di correzione diffusa, con la maggior parte dei titoli sotto la propria media mobile a 50 giorni (MA50). Tra i titoli monitorati, spiccano segnali di forte ipervenduto per **NVDA** (RSI 22.7, -34.7% dai massimi a 6 mesi) e **MSTR** (RSI 28.7, -38.9% dai massimi). I titoli che mostrano maggiore tenuta strutturale, scambiando sopra o molto vicini sia alla MA20 che alla MA50, sono **AAPL** (RSI 57.2, -1.0% dai massimi) e **AMZN** (RSI 49.6, prezzo sopra MA50). La volatilità rimane elevata in tutto il comparto tecnologico.
+- **NVDA:** Forte ipervenduto con RSI a 22.5 e calo mensile del 28.4%, scambiata sotto la MA50 (211.75) e la MA20 (192.59). Volatilità annua al 52.6%.
+- **TSLA:** In stabilizzazione sopra la MA50 (375.49) ma sotto la MA20 (386.26), con RSI neutro a 49.6 e trend a 1 mese positivo (+3.3%).
+- **SMCI e MSTR:** Forte debolezza tecnica con RSI rispettivamente a 31.7 e 26.2, entrambe ben al di sotto delle rispettive MA20 e MA50 e con cali settimanali superiori al 13%.
+- **AAPL:** Mostra la volatilità annua più bassa (27.9%) e si trova sopra sia la MA20 (347.05) che la MA50 (340.17), con un RSI a 56.3 e prezzo vicino ai massimi a 6 mesi (-1.2%).
 
 ### Consigli
-- **NON FARE NULLA**: Data la forte turbolenza di mercato e la prevalenza di titoli sotto la MA50, la strategia di momentum con volatilità controllata suggerisce di mantenere la prudenza. Con una sola posizione aperta (TSLA) e un capitale ridotto, non ci sono le condizioni ottimali di confidenza per aprire una seconda posizione oggi.
+- **NON FARE NULLA:** Mantenere la posizione attuale su TSLA senza incrementare e preservare il cash disponibile, data la mancanza di segnali di momentum chiaro e forte sui titoli monitorati che rispettino lo stile richiesto.
 
 ### Confidenza
-4/10
+3/10
 
 ---
 
