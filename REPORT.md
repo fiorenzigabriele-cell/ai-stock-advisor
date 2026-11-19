@@ -1,8 +1,8 @@
-# Report Giornaliero – 18/11/2026 23:17 CET
+# Report Giornaliero – 19/11/2026 23:15 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **108.52 USD**
-- P&L da inizio: 🔴 **-1.48 USD (-1.35%)**
+- Valore portafoglio: **107.58 USD**
+- P&L da inizio: 🔴 **-2.42 USD (-2.20%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
 
@@ -11,22 +11,20 @@
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 108.52 USD
-- **Cash disponibile (con riserva 10%):** 59.15 USD
-- **Posizioni aperte:** 1 su un massimo di 3 (TSLA: P&L -1.48 USD / -3.7%)
-- **Limite per singolo titolo:** Max 43.41 USD
+- **Valore totale:** 107.58 USD
+- **Cash disponibile (con riserva 10%):** 59.24 USD
+- **Posizioni aperte:** 1 / 3 (TSLA: P&L -2.42 USD / -6.0%, non ha ancora raggiunto lo stop loss dell'8%).
+- **Limite per singolo titolo:** 43.03 USD
 
 ### Analisi mercati
-Il mercato mostra diverse opportunità in forte ipervenduto o in fase di ritracciamento dai massimi a 6 mesi, ma la maggior parte dei titoli tecnologici si trova ancora al di sotto della media mobile a 50 giorni (MA50). 
-- **NVDA** si trova in forte ipervenduto (RSI a 21.1) ed è a -36.9% dai massimi, ma la forte discesa (-30.3% a 1 mese) sotto la MA50 richiede prudenza.
-- **AMZN** e **AAPL** mostrano buona forza relativa, trovandosi sopra la MA50 con RSI sani (rispettivamente 57.2 e 56.8) e vicine ai massimi a 6 mesi.
-- **TSLA** (già in portafoglio) si muove sopra la MA50 con un RSI neutro (51.1) e un calo limitato a -1.8% nell'ultima settimana; lo stop loss dell'8% (circa 366.64 USD) e il take profit del 18% (circa 470.23 USD) non sono stati ancora raggiunti.
+Il mercato mostra una fase di debolezza diffusa: la maggior parte dei titoli monitorati si trova al di sotto della propria media mobile a 50 giorni (MA50). Spiccano situazioni di forte ipervenduto tecnico (RSI molto basso), come nel caso di **NVDA (RSI 19.6)** e **MSTR (RSI 22.7)**, che registrano cali mensili drastici (-34.2% e -43.9%). 
+Tra i pochi titoli che mantengono una struttura più resiliente sopra o a ridosso della MA50 troviamo **AAPL**, **AMZN**, **AVGO** e **CRWD**, quest'ultimo in controtendenza positiva nell'ultima settimana (+5.9%) con un RSI neutrale a 53.4.
 
 ### Consigli
-- **NON FARE NULLA.** Data la volatilità attuale e la necessità di mantenere un risk management stretto con un capitale ridotto, le condizioni non offrono un setup di momentum con confidenza sufficiente per aprire una seconda posizione.
+- **NON FARE NULLA.** Con un capitale ridotto e una forte volatilità diffusa, la priorità è la gestione rigorosa del rischio. Nessun titolo al momento soddisfa pienamente i criteri di momentum stabile e controllo della volatilità richiesti per un nuovo ingresso (molti sono profondamente sotto la MA50 o in fase di forte correzione). Manteniamo la posizione attuale su TSLA monitorando lo stop loss.
 
 ### Confidenza
-4/10
+3/10
 
 ---
 
