@@ -1,27 +1,31 @@
-# Report Giornaliero – 19/11/2026 23:15 CET
+# Report Giornaliero – 20/11/2026 23:14 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **107.58 USD**
-- P&L da inizio: 🔴 **-2.42 USD (-2.20%)**
+- Valore portafoglio: **104.71 USD**
+- P&L da inizio: 🔴 **-5.29 USD (-4.81%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
+
+---
+
+## ⚠️ Alert rischio
+- 🔴 **TSLA**: -13.2% → stop loss (-8%) raggiunto. Valuta di chiudere (Actions → Paper Trade → sell TSLA).
 
 ---
 
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 107.58 USD
-- **Cash disponibile (con riserva 10%):** 59.24 USD
-- **Posizioni aperte:** 1 / 3 (TSLA: P&L -2.42 USD / -6.0%, non ha ancora raggiunto lo stop loss dell'8%).
-- **Limite per singolo titolo:** 43.03 USD
+- **Valore totale:** 104.71 USD (partenza 110 USD ≈ 100 EUR).
+- **Cash disponibile (con riserva 10%):** 59.53 USD.
+- **Posizioni aperte:** 1 su un massimo di 3 (TSLA: qty 0.100376, prezzo medio 398.5, attuale 345.82, P&L -5.29 USD / -13.2%).
+- **Limiti di rischio:** Stop loss teorico fissato all'8%, take profit al 18%. La posizione attuale su TSLA si trova a -13.2%, avendo superato la soglia di stop loss dell'8% senza dati di eventi esterni specifici forniti.
 
 ### Analisi mercati
-Il mercato mostra una fase di debolezza diffusa: la maggior parte dei titoli monitorati si trova al di sotto della propria media mobile a 50 giorni (MA50). Spiccano situazioni di forte ipervenduto tecnico (RSI molto basso), come nel caso di **NVDA (RSI 19.6)** e **MSTR (RSI 22.7)**, che registrano cali mensili drastici (-34.2% e -43.9%). 
-Tra i pochi titoli che mantengono una struttura più resiliente sopra o a ridosso della MA50 troviamo **AAPL**, **AMZN**, **AVGO** e **CRWD**, quest'ultimo in controtendenza positiva nell'ultima settimana (+5.9%) con un RSI neutrale a 53.4.
+Il mercato mostra una fase di forte debolezza diffusa: quasi tutti i titoli esaminati scambiano nettamente al di sotto della propria media mobile a 50 giorni (MA50), segnale di un trend ribassneo di medio periodo. Molti asset presentano RSI in zona di ipervenduto o quasi (es. NVDA RSI 15.0, MSTR RSI 20.2, PLTR RSI 26.4), accompagnati da cali giornalieri e settimanali marcati. L'unica eccezione rilevante per tenuta di prezzo rispetto alla MA50 è AAPL, che si posizionia sopra la MA50 (prezzo 342.56 vs MA50 341.59) con un RSI a 46.6 e una volatilità annua molto bassa (28.3%).
 
 ### Consigli
-- **NON FARE NULLA.** Con un capitale ridotto e una forte volatilità diffusa, la priorità è la gestione rigorosa del rischio. Nessun titolo al momento soddisfa pienamente i criteri di momentum stabile e controllo della volatilità richiesti per un nuovo ingresso (molti sono profondamente sotto la MA50 o in fase di forte correzione). Manteniamo la posizione attuale su TSLA monitorando lo stop loss.
+- **NON FARE NULLA**
 
 ### Confidenza
 3/10
