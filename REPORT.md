@@ -1,31 +1,27 @@
-# Report Giornaliero – 20/11/2026 23:14 CET
+# Report Giornaliero – 24/11/2026 23:23 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **104.71 USD**
-- P&L da inizio: 🔴 **-5.29 USD (-4.81%)**
+- Valore portafoglio: **108.61 USD**
+- P&L da inizio: 🔴 **-1.39 USD (-1.26%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
-
----
-
-## ⚠️ Alert rischio
-- 🔴 **TSLA**: -13.2% → stop loss (-8%) raggiunto. Valuta di chiudere (Actions → Paper Trade → sell TSLA).
 
 ---
 
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 104.71 USD (partenza 110 USD ≈ 100 EUR).
-- **Cash disponibile (con riserva 10%):** 59.53 USD.
-- **Posizioni aperte:** 1 su un massimo di 3 (TSLA: qty 0.100376, prezzo medio 398.5, attuale 345.82, P&L -5.29 USD / -13.2%).
-- **Limiti di rischio:** Stop loss teorico fissato all'8%, take profit al 18%. La posizione attuale su TSLA si trova a -13.2%, avendo superato la soglia di stop loss dell'8% senza dati di eventi esterni specifici forniti.
+- **Valore totale:** 108.61 USD (Capitale iniziale: 110 USD)
+- **Cash disponibile (con riserva 10%):** 59.14 USD
+- **Posizioni aperte:** 1 / 3 (TSLA)
+- **Limite per singolo titolo:** Max 43.44 USD (40% del capitale)
+- **Posizione TSLA:** 0.100376 azioni, prezzo medio 398.5 USD, prezzo attuale 384.68 USD, P&L -1.39 USD (-3.5%). Non ha raggiunto né lo stop loss (8%) né il take profit (18%).
 
 ### Analisi mercati
-Il mercato mostra una fase di forte debolezza diffusa: quasi tutti i titoli esaminati scambiano nettamente al di sotto della propria media mobile a 50 giorni (MA50), segnale di un trend ribassneo di medio periodo. Molti asset presentano RSI in zona di ipervenduto o quasi (es. NVDA RSI 15.0, MSTR RSI 20.2, PLTR RSI 26.4), accompagnati da cali giornalieri e settimanali marcati. L'unica eccezione rilevante per tenuta di prezzo rispetto alla MA50 è AAPL, che si posizionia sopra la MA50 (prezzo 342.56 vs MA50 341.59) con un RSI a 46.6 e una volatilità annua molto bassa (28.3%).
+La maggior parte dei titoli monitorati si trova in una fase di debolezza, scambiando sotto la media mobile a 50 giorni (MA50), con diverse correzioni mensili importanti (es. SMCI -30.8%, MSTR -44.5%, ARM -27.7%). I titoli legati al settore tecnologico mostrano RSI generalmente compressi sotto quota 50, segnale di un momentum ribassista o di consolidamento a breve termine. Fanno eccezione pochi titoli come AAPL, che mantiene un RSI di 56.9, quota sopra la MA50 ed è vicina ai massimi a 6 mesi (-0.6%), mostrando una forza relativa superiore rispetto al resto del paniere.
 
 ### Consigli
-- **NON FARE NULLA**
+- **NON FARE NULLA:** Mantenere l'attuale posizione su TSLA senza variazioni, in quanto si muove ancora all'interno dei parametri di rischio e sopra la propria MA50 (376.73 USD). Non si aprono nuove posizioni poiché nessuno dei titoli in osservazione rispetta pienamente i criteri di momentum con volatilità controllata richiesti dalla strategia (molti asset sono profondamente sotto la MA50 o mostrano cali giornalieri e settimanali marcati).
 
 ### Confidenza
 3/10

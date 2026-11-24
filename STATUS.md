@@ -1,20 +1,16 @@
-# Stato Portafoglio – 20/11/2026 23:14 CET
+# Stato Portafoglio – 24/11/2026 23:23 CET
 
-**Valore totale:** 104.71 USD
+**Valore totale:** 108.61 USD
 **Cash:** 70.00 USD
-**Valore posizioni:** 34.71 USD
-**P&L totale:** 🔴 -5.29 USD (-4.81%)
+**Valore posizioni:** 38.61 USD
+**P&L totale:** 🔴 -1.39 USD (-1.26%)
 **Posizioni aperte:** 1 / 3
-
-## ⚠️ Alert rischio
-
-- 🔴 **TSLA**: -13.2% → stop loss (-8%) raggiunto. Valuta di chiudere (Actions → Paper Trade → sell TSLA).
 
 ## Posizioni
 
 | Titolo   |      Qty |   Prezzo medio |   Prezzo attuale |   Valore |   P&L | P&L %   |
 |----------|----------|----------------|------------------|----------|-------|---------|
-| TSLA     | 0.100376 |          398.5 |           345.82 |    34.71 | -5.29 | -13.2%  |
+| TSLA     | 0.100376 |          398.5 |           384.68 |    38.61 | -1.39 | -3.5%   |
 
 ---
 *Aggiornato automaticamente dal bot AI Stock Advisor*
