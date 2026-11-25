@@ -1,8 +1,8 @@
-# Report Giornaliero – 24/11/2026 23:23 CET
+# Report Giornaliero – 25/11/2026 23:23 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **108.61 USD**
-- P&L da inizio: 🔴 **-1.39 USD (-1.26%)**
+- Valore portafoglio: **108.16 USD**
+- P&L da inizio: 🔴 **-1.84 USD (-1.68%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
 
@@ -11,17 +11,16 @@
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 108.61 USD (Capitale iniziale: 110 USD)
-- **Cash disponibile (con riserva 10%):** 59.14 USD
-- **Posizioni aperte:** 1 / 3 (TSLA)
-- **Limite per singolo titolo:** Max 43.44 USD (40% del capitale)
-- **Posizione TSLA:** 0.100376 azioni, prezzo medio 398.5 USD, prezzo attuale 384.68 USD, P&L -1.39 USD (-3.5%). Non ha raggiunto né lo stop loss (8%) né il take profit (18%).
+- **Valore totale:** 108.16 USD
+- **Cash disponibile (con riserva 10%):** 59.18 USD (su 70.00 USD totali)
+- **Posizioni aperte:** 1 / 3 (TSLA: valore attuale circa 38.12 USD, P&L -4.6%, stop loss a 366.62 USD, take profit a 470.23 USD)
+- **Limite max per singolo titolo:** 43.26 USD
 
 ### Analisi mercati
-La maggior parte dei titoli monitorati si trova in una fase di debolezza, scambiando sotto la media mobile a 50 giorni (MA50), con diverse correzioni mensili importanti (es. SMCI -30.8%, MSTR -44.5%, ARM -27.7%). I titoli legati al settore tecnologico mostrano RSI generalmente compressi sotto quota 50, segnale di un momentum ribassista o di consolidamento a breve termine. Fanno eccezione pochi titoli come AAPL, che mantiene un RSI di 56.9, quota sopra la MA50 ed è vicina ai massimi a 6 mesi (-0.6%), mostrando una forza relativa superiore rispetto al resto del paniere.
+Il mercato mostra una fase di debolezza diffusa, con la maggior parte dei titoli tecnologici e ciclici scambiati al di sotto della propria media mobile a 50 giorni (MA50). Molti asset registrano cali mensili marcati superiori al 20-30%. Gli unici titoli che mantengono una struttura relativamente più solida sopra la MA50 sono AAPL e la posizione attuale TSLA. Indicatori come l'RSI sono generalmente bassi (spesso sotto i 40), segnalando ipervenduto o forte pressione ribassista, con casi estremi come MSTR (RSI 27). La volatilità annualizzata rimane elevata per l'intero paniere, rendendo prudente un approccio selettivo e difensivo.
 
 ### Consigli
-- **NON FARE NULLA:** Mantenere l'attuale posizione su TSLA senza variazioni, in quanto si muove ancora all'interno dei parametri di rischio e sopra la propria MA50 (376.73 USD). Non si aprono nuove posizioni poiché nessuno dei titoli in osservazione rispetta pienamente i criteri di momentum con volatilità controllata richiesti dalla strategia (molti asset sono profondamente sotto la MA50 o mostrano cali giornalieri e settimanali marcati).
+- **NON FARE NULLA.** Nessun titolo rispetta pienamente i criteri di momentum con volatilità controllata richiesti dalla strategia (la maggioranza è profondamente sotto la MA50 e con trend di breve ribassisti). È preferibile mantenere il cash disponibile e monitorare la posizione aperta su TSLA, che si trova ancora lontana sia dallo stop loss (8%) che dal take profit (18%).
 
 ### Confidenza
 3/10
