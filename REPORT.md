@@ -1,4 +1,4 @@
-# Report Giornaliero – 25/11/2026 23:23 CET
+# Report Giornaliero – 26/11/2026 23:23 CET
 
 ## Riepilogo rapido
 - Valore portafoglio: **108.16 USD**
@@ -13,17 +13,19 @@
 ### Stato portafoglio
 - **Valore totale:** 108.16 USD
 - **Cash disponibile (con riserva 10%):** 59.18 USD (su 70.00 USD totali)
-- **Posizioni aperte:** 1 / 3 (TSLA: valore attuale circa 38.12 USD, P&L -4.6%, stop loss a 366.62 USD, take profit a 470.23 USD)
-- **Limite max per singolo titolo:** 43.26 USD
+- **Posizioni aperte:** 1 / 3 (TSLA: qty 0.100376, P&L -1.84 USD / -4.6%, stop loss non raggiunto)
+- **Limite per singolo titolo:** 43.26 USD (40% del capitale)
 
 ### Analisi mercati
-Il mercato mostra una fase di debolezza diffusa, con la maggior parte dei titoli tecnologici e ciclici scambiati al di sotto della propria media mobile a 50 giorni (MA50). Molti asset registrano cali mensili marcati superiori al 20-30%. Gli unici titoli che mantengono una struttura relativamente più solida sopra la MA50 sono AAPL e la posizione attuale TSLA. Indicatori come l'RSI sono generalmente bassi (spesso sotto i 40), segnalando ipervenduto o forte pressione ribassista, con casi estremi come MSTR (RSI 27). La volatilità annualizzata rimane elevata per l'intero paniere, rendendo prudente un approccio selettivo e difensivo.
+Il mercato mostra una fase di debolezza diffusa per i titoli tecnologici e di crescita, con la maggior parte degli asset (es. NVDA, AMD, SMCI, ARM, MSTR) scambiati ben al di sotto delle rispettive medie mobili a 50 giorni (MA50) e con cali mensili marcati compresi tra il -20% e il -43%. 
+Gli RSI sono generalmente bassi (molti sotto quota 40, con MSTR in profondo ipervenduto a 27.0), indicando una forte pressione ribassista ma anche possibili condizioni di esaurimento della spinta ribassista. 
+Pochi titoli mantengono una struttura più resiliente, come AAPL (prezzo sopra MA50, RSI 58.0) e TSLA (prezzo sopra MA50, RSI 50.3), sebbene TSLA registri una performance negativa a breve termine.
 
 ### Consigli
-- **NON FARE NULLA.** Nessun titolo rispetta pienamente i criteri di momentum con volatilità controllata richiesti dalla strategia (la maggioranza è profondamente sotto la MA50 e con trend di breve ribassisti). È preferibile mantenere il cash disponibile e monitorare la posizione aperta su TSLA, che si trova ancora lontana sia dallo stop loss (8%) che dal take profit (18%).
+- **NON FARE NULLA.** Data la generale debolezza dei titoli tecnologici sotto la MA50 e la mancanza di setup a forte momentum con confidenza minima richiesta, è preferibile mantenere la liquidità e preservare il capitale.
 
 ### Confidenza
-3/10
+4/10
 
 ---
 
