@@ -1,8 +1,8 @@
-# Report Giornaliero – 26/11/2026 23:23 CET
+# Report Giornaliero – 27/11/2026 23:22 CET
 
 ## Riepilogo rapido
-- Valore portafoglio: **108.16 USD**
-- P&L da inizio: 🔴 **-1.84 USD (-1.68%)**
+- Valore portafoglio: **110.15 USD**
+- P&L da inizio: 🟢 **+0.15 USD (+0.14%)**
 - Cash disponibile: 70.00 USD
 - Posizioni aperte: 1 / 3
 
@@ -11,21 +11,19 @@
 ## Analisi AI
 
 ### Stato portafoglio
-- **Valore totale:** 108.16 USD
-- **Cash disponibile (con riserva 10%):** 59.18 USD (su 70.00 USD totali)
-- **Posizioni aperte:** 1 / 3 (TSLA: qty 0.100376, P&L -1.84 USD / -4.6%, stop loss non raggiunto)
-- **Limite per singolo titolo:** 43.26 USD (40% del capitale)
+- **Valore totale:** 110.15 USD
+- **Cash disponibile (con riserva 10%):** 58.98 USD (Cash totale: 70.00 USD)
+- **Posizioni aperte:** 1 / 3 (TSLA: quota 0.100376, P&L +0.15 USD / +0.4%)
+- **Limite per singolo titolo:** Max 44.06 USD (40% del capitale)
 
 ### Analisi mercati
-Il mercato mostra una fase di debolezza diffusa per i titoli tecnologici e di crescita, con la maggior parte degli asset (es. NVDA, AMD, SMCI, ARM, MSTR) scambiati ben al di sotto delle rispettive medie mobili a 50 giorni (MA50) e con cali mensili marcati compresi tra il -20% e il -43%. 
-Gli RSI sono generalmente bassi (molti sotto quota 40, con MSTR in profondo ipervenduto a 27.0), indicando una forte pressione ribassista ma anche possibili condizioni di esaurimento della spinta ribassista. 
-Pochi titoli mantengono una struttura più resiliente, come AAPL (prezzo sopra MA50, RSI 58.0) e TSLA (prezzo sopra MA50, RSI 50.3), sebbene TSLA registri una performance negativa a breve termine.
+Il mercato mostra un recupero generalizzato nell'ultima seduta (1g positivo per quasi tutti i titoli), ma il quadro a medio termine rimane debole: la maggior parte dei titoli (tra cui NVDA, AMD, MSFT e GOOGL) scambia ancora nettamente al di sotto della propria media mobile a 50 giorni (MA50). Tra i pochi a mostrare maggiore forza relativa vi sono **AAPL** (prezzo sopra MA50 e RSI a 60.3) e la posizione aperta **TSLA** (prezzo sopra la MA50 a 377.84, RSI a 56.4). Titoli come MSTR registrano un forte calo a 1 mese (-43.8%) e un RSI ipervenduto a 28.7, ma la volatilità e la distanza dalla MA50 sconsigliano ingressi avventati.
 
 ### Consigli
-- **NON FARE NULLA.** Data la generale debolezza dei titoli tecnologici sotto la MA50 e la mancanza di setup a forte momentum con confidenza minima richiesta, è preferibile mantenere la liquidità e preservare il capitale.
+- **NON FARE NULLA:** Mantenere l'attuale posizione su TSLA senza incrementare e preservare il cash disponibile, poiché non vi sono opportunità con i requisiti di confidenza richiesti.
 
 ### Confidenza
-4/10
+3/10
 
 ---
 
